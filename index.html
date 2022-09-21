@@ -1,0 +1,86 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: orange;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .container{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 15px 50px 15px yellow;
+        padding: 50px 20px;
+        text-align: center;
+        max-width: 100%;
+        width: 800px;
+    }
+
+    h3{
+        margin: 0px;
+        color: gray;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+    }
+
+    .joke{
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin: 50px auto;
+        max-width: 600px;
+    }
+
+    .btn{
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        /* box-shadow: 0 5px 15px black, 0 6px 6px black; */
+        padding: 12px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        outline: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+    }
+    .btn:hover{
+        background-color: skyblue;
+        color: blue;
+    }
+
+    img{
+        width: 30%;
+    }
+
+</style>
+<body>
+    <img src="https://media4.giphy.com/media/3oz8xUwKTA2gAfUWmk/giphy.gif?cid=6c09b95276eef5a517eec08d240545795067e8d7647332ed&rid=giphy.gif&ct=s" alt="">
+    <div class="container">
+        <h3>😆 Best Jokes to Make Your Day 🙋</h3>
+        <div class =  "joke" id="joke">Awesome Joke is Loading ... 🤟 </div>
+        <button class="btn" id="jokebtn">Next Joke</button>
+    </div>
+
+    <script src="Jokesapiscript.js"></script>
+</body>
+</html>
